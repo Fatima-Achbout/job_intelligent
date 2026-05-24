@@ -10,9 +10,10 @@ __pycache__/
 venv/
 env/
 
-# Airflow logs (trop volumineux pour GitHub)
+# Airflow logs et config (trop volumineux / sensible pour GitHub)
 airflow/logs/
 airflow/mysql-data/
+airflow/config/airflow.cfg
 
 # IDE
 .vscode/
