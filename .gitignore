@@ -1,0 +1,23 @@
+# Environment variables (contient les clés API et mots de passe)
+.env
+airflow/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Airflow logs (trop volumineux pour GitHub)
+airflow/logs/
+airflow/mysql-data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
